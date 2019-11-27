@@ -10,15 +10,46 @@ namespace formulaEstudiante.core.Services
         public double formulaCalculationX1(double a, double b, double c )
         {
 
-
-           return ((-1 * b) - Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / (2 * a);
+            var d = (Math.Pow(b, 2) - (4 * a * c));
+            double total = 0;
+            if (d != 0)
+            {
+                if (d < 0)
+                {
+                    total = (-1 * b) - ((Math.Sqrt(d)) / (2 * a));
+                }
+                else
+                {
+                    total = ((-1 * b) - Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / (2 * a);
+                }
+            }
+            else
+            {
+                total = (-1 * b) / (2 * a);
+            }
+            return total;
         }
 
         public double formulaCalculationX2(double a, double b, double c)
         {
-
-
-            return ((-1 * b) + Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / (2 * a);
+            var d = (Math.Pow(b, 2) - (4 * a * c));
+            double total = 0;
+            if (d != 0)
+            {
+                if (d < 0)
+                {
+                    total = (-1 * b) + ((Math.Sqrt(d)) / (2 * a));
+                }
+                else
+                {
+                    total = ((-1 * b) + Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / (2 * a);
+                }
+            }
+            else
+            {
+                total = (-1 * b) / (2 * a);
+            }
+            return total;
         }
     }
 
