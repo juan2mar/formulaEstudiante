@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:padding="20dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="The a value is:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text a" />
+    <TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="The b value is:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text b" />
+    <TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="The c value is:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text c" />
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click CalculateCommand"/>
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="The x1 is:" />
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textColor="@android:color/holo_blue_dark"
+    	android:textSize="24dp"
+   	    android:gravity="center"
+    	local:MvxBind="Text X1" />
+    <TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="The x2 is:" />
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textColor="@android:color/holo_blue_dark"
+    	android:textSize="24dp"
+   	    android:gravity="center"
+    	local:MvxBind="Text X2" />
+</LinearLayout>

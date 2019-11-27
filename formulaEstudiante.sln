@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "formulaEstudiante", "formulaEstudiante", "{A4E66996-B4FA-499A-96A8-9F9C253EBE77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formulaEstudiante.core", "formulaEstudiante.core\formulaEstudiante.core.csproj", "{56AE98CA-F700-4FA0-97EB-202D32F717E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormulaEstudiante.Android", "FormulaEstudiante.Android\FormulaEstudiante.Android.csproj", "{32ADA628-E18C-444E-9BD2-338AD364D652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56AE98CA-F700-4FA0-97EB-202D32F717E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AE98CA-F700-4FA0-97EB-202D32F717E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AE98CA-F700-4FA0-97EB-202D32F717E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AE98CA-F700-4FA0-97EB-202D32F717E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ADA628-E18C-444E-9BD2-338AD364D652}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56AE98CA-F700-4FA0-97EB-202D32F717E4} = {A4E66996-B4FA-499A-96A8-9F9C253EBE77}
+		{32ADA628-E18C-444E-9BD2-338AD364D652} = {A4E66996-B4FA-499A-96A8-9F9C253EBE77}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C695A401-DBB8-4CE6-A452-9CB2496E6A9E}
+	EndGlobalSection
+EndGlobal
